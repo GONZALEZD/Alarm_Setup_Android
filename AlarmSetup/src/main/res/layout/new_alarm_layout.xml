@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/fragment_padding"
+    >
+
+    <com.dgo.alarm.ui.elements.TimeTextView
+        android:id="@+id/textTime_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyWidget_TimeTextView"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" 
+        android:layout_marginBottom="4dp" 
+        >
+
+        <ToggleButton
+            android:id="@+id/toggleMonday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/monday_short"
+            />
+
+
+        <ToggleButton
+            android:id="@+id/toggleTuesday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/tuesday_short"
+            />
+        
+        <ToggleButton
+            android:id="@+id/toggleWednesday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/wednesday_short"
+            />
+        
+        <ToggleButton
+            android:id="@+id/toggleThursday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/thursday_short"
+            />
+        
+        <ToggleButton
+            android:id="@+id/toggleFriday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/friday_short"
+            />
+        
+        <ToggleButton
+            android:id="@+id/toggleSaturday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/saturday_short"
+            />
+        
+        <ToggleButton
+            android:id="@+id/toggleSunday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="@string/sunday_short"
+            />
+
+    </LinearLayout>
+
+    <RadioGroup
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="4dp" 
+		android:layout_marginBottom="4dp"
+		android:checkedButton="@+id/oneShotRadioBtn"
+		>
+    
+	     <RadioButton
+	         android:id="@+id/oneShotRadioBtn"
+	         android:layout_width="0dp"
+	         android:layout_height="wrap_content"
+	         android:layout_weight="0.5"
+	         android:text="@string/one_shot_radio_btn"
+             />
+	
+	     <RadioButton
+	         android:id="@+id/weeklyRadioBtn"
+	         android:layout_width="0dp"
+	         android:layout_height="wrap_content"
+	         android:layout_weight="0.5"
+	         android:text="@string/weekly_radio_btn"
+	         />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp" 
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:id="@+id/textChooseHour_single"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="@string/alarm_choose_hour"
+            android:layout_gravity="center_vertical"
+            />
+
+        <SeekBar
+            android:id="@+id/seekBarChooseHour_single"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:max="@integer/max_hour"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp" 
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:id="@+id/textChooseMinuts_single"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="@string/alarm_choose_minuts"
+            android:layout_gravity="center_vertical"
+            />
+
+        <SeekBar
+            android:id="@+id/seekBarChooseMinuts_single"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:max="@integer/minuts_max"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+        <TextView
+            android:id="@+id/textChooseMusic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="@string/alarm_choose_music"
+            android:layout_gravity="center_vertical"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerMusicChooser"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:id="@+id/buttonValidateAlarm_single"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/button_create_alarm"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

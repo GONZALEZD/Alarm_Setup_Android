@@ -1,0 +1,83 @@
+<resources>
+    <string name="monday_name">monday</string>
+    <string name="tuesday_name">tuesday</string>
+    <string name="wednesday_name">wednesday</string>
+    <string name="thursday_name">thursday</string>
+    <string name="friday_name">friday</string>
+    <string name="saturday_name">saturday</string>
+    <string name="sunday_name">sunday</string>
+    <string name="monday_short">mon</string>
+    <string name="tuesday_short">tue</string>
+    <string name="wednesday_short">wed</string>
+    <string name="thursday_short">thu</string>
+    <string name="friday_short">fri</string>
+    <string name="saturday_short">sat</string>
+    <string name="sunday_short">sun</string>
+    
+    <item name="first_day_of_the_week" type="integer">6</item>
+    
+    <string name="app_name" translatable="false">Alarm Setup</string>
+    <string name="alarm_choose_1day">Day</string>
+    <string name="alarm_choose_hour">Hour</string>
+    <string name="alarm_choose_minuts">Minuts</string>
+    <string name="alarm_choose_music">Music</string>
+    <string name="alarm_choose_music_list">Choose</string>
+    <string name="button_create_alarm">Create Alarm</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="msg_choose_music">Alarm song</string>
+    <string name="msg_choose_music_item">Choose music</string>
+    <string name="alarm_repeat">Repeat</string>
+    
+    <string name="button_desc_alarms">Alarm button</string>
+    <string name="button_desc_overview">Calendar button</string>
+    <string name="button_desc_settings">Settings button</string>
+    <string name="button_next" translatable="false">></string>
+    <string name="button_previous" translatable="false">&lt;</string>
+    <string name="button_add_alarm">New alarm</string>
+    <string name="image_desc_alarm_type">Alarm type</string>
+    <string name="one_shot_radio_btn">One shot</string>
+    <string name="weekly_radio_btn">Recurrent</string>
+    <string name="msg_one_shot_alarm">One shot alarm</string>
+    <string name="on_upper_cased" translatable="false">ON</string>
+    <string name="off_upper_cased" translatable="false">OFF</string>
+    <string name="one_minut" translatable="false">1 min</string>
+    <string name="five_minuts" translatable="false">5 min</string>
+    <string name="select_minut_tick">Minut ticks</string>
+    <string name="one_shot_color">One shot</string>
+    <string name="recurrent_color">Recurrent</string>
+    <string name="alarms_color_text">Alarms color settings</string>
+    <string name="new_alarm_settings_text">New alarm settings</string>
+    
+    <string-array name="month_names">
+        <item >January</item>
+        <item >February</item>
+        <item >March</item>
+        <item >April</item>
+        <item >May</item>
+        <item >June</item>
+        <item >July</item>
+        <item >August</item>
+        <item >September</item>
+        <item >October</item>
+        <item >November</item>
+        <item >December</item>
+    </string-array>
+    <string-array name="edit_alarm_options">
+        <item>Edit alarm</item>
+        <item>Disable alarm</item>
+        <item>Delete all occurences</item>
+    </string-array>
+    <string name="menu_add_alarm">New Alarm</string>
+    <string name="menu_settings">Settings</string>
+    <string name="alarm_options_title">Alarm options</string>
+    <string name="button_modify_alarm">Modify</string>
+    <string name="MSG_unable_delete_alarm">Unable to delete alarm !</string>
+    <string name="choose_color_oneshot_title">One shot alarm</string>
+    <string name="choose_color_recurrent_title">Recurrent alarm</string>
+    <string name="choose_color_btn">Choose color</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="reset_color_btn">Reset colors</string>
+    <string name="no_first_alarm" translatable="false"></string>
+    <string name="no_active_alarm" translatable="false">--:--</string>
+    <string name="edit_alarm_enable">Enable alarm</string>
+</resources>

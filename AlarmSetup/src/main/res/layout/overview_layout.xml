@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/overviewMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/fragment_padding"
+        >
+
+        <GridView
+            android:id="@+id/gridOverview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:numColumns="@integer/grid_columns"
+            android:stretchMode="columnWidth" >
+        </GridView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

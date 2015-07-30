@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_white"                >#FFFFFF</color>
+    <color name="text_purple"               >#240049</color>
+    <color name="colorPrimary"              >#3E0078</color>
+    <color name="primary_dark"              >#240049</color>
+    <color name="text_days_icon"            >#DDFFFFFF</color>
+    <color name="time_display"              >#240049</color>
+    <color name="elt_line"                  >#FFFFFF</color>
+    <color name="clickable_elt_start"       >#cdcdcd</color>
+    <color name="clickable_elt_end"         >#FFFFFF</color>
+    <color name="active_elt_start"          >#382888</color>
+    <color name="active_elt_end"            >#6930b0</color>
+    <color name="active_elt_line"           >#4E005A</color>
+    <color name="active_elt_start_trans"    >#80760087</color>
+    <color name="active_elt_end_trans"      >#80A000B8</color>
+    <color name="active_elt_line_trans"     >#804E005A</color>
+    <color name="menu_bar_start"            >#80760087</color>
+    <color name="menu_bar_end"              >#80A000B8</color>
+    <color name="menu_bar_borders"          >#50240049</color>
+    <color name="pressed_elt_borders"       >#FFFFFF</color>
+    <color name="pressed_elt_start"         >#382888</color>
+    <color name="pressed_elt_end"           >#6930b0</color>
+
+    <!--<color name="default_one_shot"          >#ff7979b3</color>-->
+    <!--<color name="default_recurrent"         >#ff544b96</color>-->
+
+    <color name="default_one_shot"          >#006B6B</color>
+    <color name="default_recurrent"         >#004C4C</color>
+
+    <color name="default_alarm_icon"        >#222222</color>
+    
+    <color name="elt_bck_start_trans"       >#C0111111</color>
+    <color name="elt_bck_end_trans"         >#C0333333</color>
+    <color name="elt_bck_start"             >#111111</color>
+    <color name="elt_bck_end"               >#333333</color>
+    <color name="background"                >#F0F0F0</color>
+    <color name="spinner_background"        >#F9F9F9</color>
+
+    <color name="popup_tint"                >#90FFFFFF</color>
+
+    <color name="item_list_white"           >#B0F0F0F0</color>
+
+
+</resources>

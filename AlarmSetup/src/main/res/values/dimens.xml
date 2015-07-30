@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_content_title">28dp</dimen>
+    <dimen name="tab_content_sub_title">24dp</dimen>
+    <dimen name="dialog_title">24dp</dimen>
+    <dimen name="time_display_big">100dp</dimen>
+    <dimen name="text_default_size">18dp</dimen>
+    <dimen name="text_day_icon">20dp</dimen>
+    <dimen name="text_first_alarm_icon">12dp</dimen>
+    <dimen name="text_small_size">12dp</dimen>
+    <dimen name="tab_icon_radius">4dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="button_height_quarter">10dp</dimen>
+    <dimen name="round_button_diameter">64dp</dimen>
+    <dimen name="add_button_margin">16dp</dimen>
+    <dimen name="elevation_low">10dp</dimen>
+    <dimen name="fragment_padding">8dp</dimen>
+    <dimen name="image_border">2dp</dimen>
+</resources>

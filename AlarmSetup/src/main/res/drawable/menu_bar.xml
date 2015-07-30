@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="2dp" android:color="@color/menu_bar_borders" />
+    <gradient
+       android:startColor="@color/menu_bar_start" 
+       android:endColor="@color/menu_bar_start"
+       android:centerColor="@color/menu_bar_end"
+       android:centerX="30%p"
+       android:angle="90"
+    />
+    <padding android:left="4dp" android:right="4dp"/>
+</shape>
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_add_alarm">Nouvelle Alarme</string>
+    <string name="menu_settings">Paramètres</string>
+
+    <string name="monday_name">lundi</string>
+    <string name="tuesday_name">mardi</string>
+    <string name="wednesday_name">mercredi</string>
+    <string name="thursday_name">jeudi</string>
+    <string name="friday_name">vendredi</string>
+    <string name="saturday_name">samedi</string>
+    <string name="sunday_name">dimanche</string>
+
+    <string name="monday_short">lun</string>
+    <string name="tuesday_short">mar</string>
+    <string name="wednesday_short">mer</string>
+    <string name="thursday_short">jeu</string>
+    <string name="friday_short">ven</string>
+    <string name="saturday_short">sam</string>
+    <string name="sunday_short">dim</string>
+
+    <item name="first_day_of_the_week" type="integer">0</item>
+
+    <string name="alarm_choose_1day">Jour</string>
+    <string name="alarm_choose_hour">Heure</string>
+    <string name="alarm_choose_minuts">Minutes</string>
+    <string name="alarm_choose_music">Musique</string>
+    <string name="alarm_choose_music_list">Choisir</string>
+    <string name="button_create_alarm">Créer une alarme</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="msg_choose_music">Musique de l\'alarme</string>
+    <string name="msg_choose_music_item">Choisir une musique</string>
+    <string name="alarm_repeat">Répéter</string>
+
+    <string name="button_desc_alarms">Bouton alarms</string>
+    <string name="button_desc_overview">Bouton calendrier</string>
+    <string name="button_desc_settings">Bouton des paramètres</string>
+    <string name="button_add_alarm">Nouvelle alarme</string>
+    <string name="image_desc_alarm_type">Type d\'alarme</string>
+    <string name="one_shot_radio_btn">Un coup</string>
+    <string name="weekly_radio_btn">Recurrente</string>
+    <string name="msg_one_shot_alarm">Alarme un coup</string>
+
+    <string-array name="month_names">
+        <item >Janvier</item>
+        <item >Février</item>
+        <item >Mars</item>
+        <item >Avril</item>
+        <item >Mai</item>
+        <item >Juin</item>
+        <item >Juillet</item>
+        <item >Aout</item>
+        <item >Septembre</item>
+        <item >Octobre</item>
+        <item >Novembre</item>
+        <item >Decembre</item>
+    </string-array>
+    <string-array name="edit_alarm_options">
+        <item>Modifier l\'alarme</item>
+        <item>Désactiver l\'alarme</item>
+        <item>Supprimer l\'alarme</item>
+    </string-array>
+    <string name="recurrent_color">Récurrent</string>
+    <string name="select_minut_tick">Précision</string>
+    <string name="one_shot_color">Un coup</string>
+    <string name="new_alarm_settings_text">Paramètres nouvelle alarme</string>
+    <string name="alarms_color_text">Couleurs des types d\'alarmes</string>
+    <string name="alarm_options_title">Options de l\'alarme</string>
+    <string name="button_modify_alarm">Modifier</string>
+    <string name="MSG_unable_delete_alarm">Suppréssion de l\'alarme impossible !</string>
+    <string name="choose_color_oneshot_title">Alarme \'un coup\'</string>
+    <string name="choose_color_recurrent_title">Alarme recurrente</string>
+    <string name="cancel_btn">Annuler</string>
+    <string name="choose_color_btn">Choisir couleur</string>
+    <string name="reset_color_btn">Réinitialiser les couleurs</string>
+    <string name="edit_alarm_enable">Activer l\'alarme</string>
+</resources>

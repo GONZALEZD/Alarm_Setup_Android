@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_hour">23</integer>
+    <integer name="min_hour">0</integer>
+    <integer name="grid_columns">7</integer>
+    <integer name="minuts_max">59</integer>
+    <integer name="minuts_min">0</integer>
+    <integer name="trans_unselected_main_buttons">170</integer>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+</resources>
